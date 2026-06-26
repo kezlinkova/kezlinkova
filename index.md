@@ -10,8 +10,8 @@ Aby vás zákazníci našli dřív než konkurenci — v Googlu i v AI vyhledáv
 
 Cílím na podnikatele a značky, které chtějí, aby web reálně přiváděl klienty — ne aby jen visel na internetu jako vizitka.
 
-- **[SEO spolupráce](https://kezlinkova.cz/seo-spoluprace.html)** (web už máte) — Pro e-shopy a podnikatele, kteří už investují do výkonnostní reklamy, ale sílu organického vyhledávání zatím nevyužili. Připravím strategii a dlouhodobě s vámi pracuji na jejím naplňování — od klíčových slov po optimalizaci pro AI vyhledávání.
-- **[Kompletní web + SEO](https://kezlinkova.cz/web-seo.html)** (web teprve chystáte) — Pro podnikatele a značky, které chtějí, aby web reálně přiváděl klienty. Postavím celý web připravený na vyhledávače, zpracuji SEO i obsahovou strategii a následující půlrok web hlídám a ladím.
+- **[SEO spolupráce](https://kezlinkova.cz/seo-spoluprace)** (web už máte) — Pro e-shopy a podnikatele, kteří už investují do výkonnostní reklamy, ale sílu organického vyhledávání zatím nevyužili. Připravím strategii a dlouhodobě s vámi pracuji na jejím naplňování — od klíčových slov po optimalizaci pro AI vyhledávání.
+- **[Kompletní web + SEO](https://kezlinkova.cz/web-seo)** (web teprve chystáte) — Pro podnikatele a značky, které chtějí, aby web reálně přiváděl klienty. Postavím celý web připravený na vyhledávače, zpracuji SEO i obsahovou strategii a následující půlrok web hlídám a ladím.
 
 Pracuji s pokročilými SEO nástroji — Collabim, Marketing Miner, Screaming Frog a dalšími.
 

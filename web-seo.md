@@ -32,6 +32,6 @@ Ceny jsou konečné, nejsem plátce DPH.
 Napište mi pár vět o vašem projektu — hned na začátku si řekneme, jestli má spolupráce smysl.
 
 - E-mail: veronika@kezlinkova.cz
-- Druhá služba: [SEO spolupráce](https://kezlinkova.cz/seo-spoluprace.html)
+- Druhá služba: [SEO spolupráce](https://kezlinkova.cz/seo-spoluprace)
 
 Ing. Veronika Kežlínková · IČO: 06298702 · Malínky 30, 683 33 · Fyzická osoba zapsaná v živnostenském rejstříku v Bučovicích.

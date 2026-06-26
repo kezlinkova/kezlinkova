@@ -41,6 +41,6 @@ Ceny jsou konečné, nejsem plátce DPH.
 Napište mi pár vět o vašem webu a cílech — než se do toho pustíme, řeknu vám, jestli to dává smysl.
 
 - E-mail: veronika@kezlinkova.cz
-- Související služba: [Kompletní web + SEO](https://kezlinkova.cz/web-seo.html)
+- Související služba: [Kompletní web + SEO](https://kezlinkova.cz/web-seo)
 
 Ing. Veronika Kežlínková · IČO: 06298702 · Malínky 30, 683 33 · Fyzická osoba zapsaná v živnostenském rejstříku v Bučovicích.
