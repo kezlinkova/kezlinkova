@@ -1,0 +1,19 @@
+# HTTP response headers
+<IfModule mod_headers.c>
+  # HSTS — only sent over HTTPS (spec: never send over plain HTTP)
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" "expr=%{HTTPS} == 'on'"
+
+  # Content Security Policy — restricts script/style/connect to known sources.
+  #   script-src 'self'      → only script.js (JSON-LD blocks are non-executable, not covered)
+  #   style-src              → styles.css + Google Fonts stylesheet
+  #   font-src               → Google Fonts files
+  #   img-src 'self' data:   → assets/*.jpg + inline SVG favicon
+  #   connect-src            → contact form fetch() to Formspree
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://formspree.io; form-action 'self' https://formspree.io; base-uri 'self'; object-src 'none'; frame-ancestors 'none'"
+</IfModule>
+
+# Serve Markdown (llms.txt page versions) as readable UTF-8 text, not a download
+<IfModule mod_mime.c>
+  AddType text/markdown .md
+  AddCharset utf-8 .md
+</IfModule>
