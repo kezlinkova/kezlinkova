@@ -209,6 +209,7 @@ body{margin:0;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibili
 .form{display:flex;flex-direction:column;gap:12px;max-width:460px;}
 .field{font-family:var(--f-sans);font-size:15px;color:var(--c-pink);background:var(--c-dark-soft);border:1px solid var(--c-dark-line);border-radius:14px;padding:14px 18px;outline:none;}
 .field--area{line-height:1.55;resize:vertical;}
+.field::placeholder{color:rgba(250,225,223,0.6);opacity:1;}
 .field:focus-visible{outline:none;border-color:var(--c-sand);box-shadow:0 0 0 3px rgba(228,195,173,.45);}
 .form-error{display:none;font-family:var(--f-sans);font-size:14px;color:var(--c-error);}
 .contact-links{display:flex;flex-wrap:wrap;gap:26px;margin-top:26px;}
@@ -250,6 +251,7 @@ body{margin:0;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibili
   .nav-burger{display:inline-flex!important;}
   .nav-cta-mobile{display:inline-flex!important;}
   .collapse{grid-template-columns:1fr!important;}
+  .sub-aside{position:static!important;top:auto!important;margin-bottom:30px;}
   .about-photo{max-width:380px;margin:0 auto;}
   .hero-photo{justify-self:center!important;max-width:340px!important;margin-top:6px;}
 }
