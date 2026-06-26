@@ -24,13 +24,16 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
+  # Force https on redirects — TLS terminates at the CDN, so the origin sees
+  # http and would otherwise build redirect targets with an http:// scheme.
+
   # /index or /index.html  ->  /   (301)
   RewriteCond %{THE_REQUEST} \s/+index(?:\.html)?[\s?] [NC]
-  RewriteRule ^ / [R=301,L]
+  RewriteRule ^ https://%{HTTP_HOST}/ [R=301,L]
 
   # /page.html  ->  /page   (301)
   RewriteCond %{THE_REQUEST} \s/+([^\s?]+)\.html[\s?] [NC]
-  RewriteRule ^ /%1 [R=301,L,NE]
+  RewriteRule ^ https://%{HTTP_HOST}/%1 [R=301,L,NE]
 
   # Internally serve /page from page.html (no redirect)
   RewriteCond %{REQUEST_FILENAME} !-f
