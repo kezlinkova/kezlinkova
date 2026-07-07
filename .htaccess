@@ -3,6 +3,12 @@
   # HSTS — set unconditionally: TLS is terminated at the CDN (StackCDN), so the
   # origin Apache sees the request as HTTP and a %{HTTPS}=='on' guard would never
   # fire. The browser↔CDN leg is always HTTPS, which is the connection HSTS protects.
+  #
+  # Drop any HSTS added earlier (host/server-level config emits a bare
+  # "max-age=31536000"); without this the response carries two HSTS headers,
+  # which scanners merge into one invalid value and report as "missing".
+  Header unset Strict-Transport-Security
+  Header always unset Strict-Transport-Security
   Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
 
   # Content Security Policy — restricts script/style/connect to known sources.
