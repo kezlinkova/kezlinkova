@@ -59,5 +59,6 @@ Pojďme se pobavit o vašem webu. Napište mi pár vět o vašem projektu — ne
 - E-mail: veronika@kezlinkova.cz
 - Instagram: https://www.instagram.com/ukazsewebem/
 - LinkedIn: https://www.linkedin.com/in/veronika-kezlinkova/
+- Na volné noze: https://navolnenoze.cz/prezentace/veronika-kezlinkova/
 
 Ing. Veronika Kežlínková · IČO: 06298702 · Malínky 30, 683 33 · Fyzická osoba zapsaná v živnostenském rejstříku v Bučovicích.
